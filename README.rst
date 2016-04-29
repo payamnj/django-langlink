@@ -11,6 +11,7 @@ Source of the Language codes which are used in this application is: http://data.
 
 Installation
 ============
+Install the application package using pip::
 
     pip install django-langlink
 
@@ -21,7 +22,7 @@ add 'langlink' to the INSTALLED_APPS list on your settings file
 How to use
 ==========
 
-Import the Language abstract model from langlink and use it to create your language model.::
+Import the Language abstract model from langlink and use it to create your language model::
 
     from langlink.models import Language
 
@@ -29,7 +30,6 @@ Import the Language abstract model from langlink and use it to create your langu
         pass
     
 
-
-after you create and migrate your models, run this management command to populate the data:::
+after you create and migrate your models, run this management command to populate the data::
 
     python manage.py add_languages my_app_name mylanguagemodel
