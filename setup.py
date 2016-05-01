@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='django_langlink',
-    version='0.1.1',
+    version='0.1.2',
     description='Abstract language model and management command to populate language model',
     url='https://github.com/payamnj/django-langlink',
     author='Payam Najafizadeh',
