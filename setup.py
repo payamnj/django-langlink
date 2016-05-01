@@ -10,4 +10,9 @@ setup(
     license='New BSD',
     packages=['langlink', 'langlink.management',
         'langlink.management.commands'],
+    classifiers=[
+        'Programming Language :: Python',
+        'Operating System :: OS Independent',
+        'Environment :: Web Environment',
+        'Framework :: Django'],
     requires=['django(>=1.8)'],)
